@@ -1,0 +1,27 @@
+{
+  "name": "@ruby2js/enumerable",
+  "version": "0.1.1",
+  "description": "Zero-dependency, implementation of Ruby's Enumerable for ruby2js and js",
+  "main": "src/index.js",
+  "type": "module",
+  "homepage": "https://github.com/rubys/ruby2js/tree/master/packages/active-functions#readme",
+  "repository": "https://github.com/rubys/ruby2js",
+  "author": "Delon Newman",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">= 14.3.0"
+  },
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "files": [
+    "src"
+  ],
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "yarn": "^1.22.17"
+  }
+}
